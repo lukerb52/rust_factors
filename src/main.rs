@@ -35,7 +35,7 @@ fn number_input() -> u32 {
     let input: u32 = line
         .trim()
         .parse()
-        .expect("Wanted a number");
+        .expect("Wanted a positive number");
     return input;
 }
 
